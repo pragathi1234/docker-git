@@ -3,11 +3,11 @@ app = Flask(__name__)
   
 @app.route('/') 
 def hello(): 
-    return "welcome to the flask tutorials"
+    return "welcome to the flask tutorials "
 
 @app.route('/hello') 
 def helloo(): 
-    return "welcome!!"
+    return "welcome Hi!!"
   
 @app.route('/bye') 
 def bye(): 
